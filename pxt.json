@@ -1,5 +1,5 @@
 {
-    "name": "Snake",
+    "name": "Snake - Copy - Copy",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -24,5 +24,16 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 0,
+                    "whitelist": 1,
+                    "security_level": "SECURITY_MODE_ENCRYPTION_NO_MITM"
+                }
+            }
+        }
+    }
 }
